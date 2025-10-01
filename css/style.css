@@ -23,3 +23,43 @@ h1{
     font-weight: 500;
 }
 
+.principal{
+    background-image: url('../img/Gemini_Generated_Image_6vg74t6vg74t6vg7\ 1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa{
+    margin: 0 10rem;
+}
+
+.container__titulo{
+    font-size: 1.75rem;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__botao{
+    background-color: var(--botão-azul);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.container__botao--secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
