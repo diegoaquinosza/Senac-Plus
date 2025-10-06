@@ -1,14 +1,14 @@
+:root {
+    --cor-de-fundo: #0B0A14;
+    --branco-principal: #FFFFFF;
+    --botao-azul: #167BF7;
+    --cinza-secundario: #C0C0C0;
+    --fonte-principal: "Inter";
+}
+
 * {
     margin: 0;
     padding: 0;
-}
-
-:root {
-    --cor-de-fundo: #0b0a14;
-    --branco-principal: #ffffff;
-    --botão-azul: #167bf7;
-    --cinza-secundario: #c0c0c0;
-    --fonte-principal: "Inter";
 }
 
 body {
@@ -19,12 +19,8 @@ body {
     font-weight: 400;
 }
 
-/* h1{
-    font-weight: 500;
-} */
-
 .principal {
-    background-image: url('../img/Gemini_Generated_Image_6vg74t6vg74t6vg7\ 1.png');
+    background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -50,7 +46,7 @@ body {
 }
 
 .container__botao {
-    background-color: var(--botão-azul);
+    background-color: var(--botao-azul);
     border-radius: 0.5rem;
     padding: 1rem;
     color: var(--branco-principal);
@@ -70,33 +66,68 @@ body {
 }
 
 .secundario__imagem {
-    width: 80%;
+    width: 70%;
 }
 
 .container__descricao {
     padding: 2rem;
 }
 
-.descricao__titulo{
+.descricao__titulo {
     font-weight: 700;
     font-size: 3rem;
     color: var(--branco-principal);
     margin-bottom: 0.1rem;
 }
 
-.descricao__texto{
+.descricao__texto {
     color: var(--cinza-secundario);
 }
 
-.container__botao--terceiro {
-    background-color: var(--botão-azul);
-    border-radius: 0.5rem;
-    padding: 1rem;
-    color: var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    /* width: 10rem;
-    height: 2rem; */
-    margin: 1rem 33rem 0 0;
+.secundario__botao {
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+
+.dispositivos {
     text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+}
+
+.lista__item {
+    font-size: 2rem;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 1rem;
+}
+
+.rodape__texto {
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
 }
